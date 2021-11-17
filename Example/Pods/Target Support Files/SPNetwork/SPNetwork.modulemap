@@ -1,0 +1,6 @@
+framework module SPNetwork {
+  umbrella header "SPNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

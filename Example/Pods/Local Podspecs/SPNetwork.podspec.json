@@ -1,0 +1,22 @@
+{
+  "name": "SPNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of SPNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sarvesh567/SPNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sarvesh567": "sp395862@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sarvesh567/SPNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SPNetwork/Classes/**/*"
+}
