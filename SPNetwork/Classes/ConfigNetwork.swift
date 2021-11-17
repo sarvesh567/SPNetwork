@@ -6,6 +6,6 @@
 //
 
 import Foundation
-class ConfigNetwork: NSObject{
+public class ConfigNetwork: NSObject{
 
 }

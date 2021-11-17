@@ -6,7 +6,7 @@
 //
 
 import Foundation
-extension Bundle{
+public class AppBundle: Bundle{
     var getBundleIdentifier: String?{
         return bundleIdentifier
     }
