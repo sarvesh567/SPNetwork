@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'SPNetwork_Example' do
-  pod 'Alamofire', '~> 5.4'
+  pod 'Alamofire', '~> 5.4.4'
   pod 'SPNetwork', :path => '../'
   target 'SPNetwork_Tests' do
     inherit! :search_paths
