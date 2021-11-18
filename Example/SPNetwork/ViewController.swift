@@ -7,12 +7,23 @@
 //
 
 import UIKit
-
+import SPNetwork
+import Alamofire
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+         
+        do{
+            try NetworkConfig.queryConfigHost(completionHandler: { data, networkError in
+                let json = try? JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? [String: Any]
+                guard let j = json else {return }
+                print(j)
+            })
+        }catch{
+            print(error.localizedDescription)
+        }
+       
     }
 
     override func didReceiveMemoryWarning() {

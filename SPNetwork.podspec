@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
   s.name             = 'SPNetwork'
   s.version          = '1.0.0'
@@ -13,5 +12,5 @@ Handle networking.
   s.source           = { :git => 'https://github.com/sarvesh567/SPNetwork.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'SPNetwork/Classes/**/*'
-  s.dependency 'Alamofire'
+  s.dependency 'Alamofire', '~> 5.4'
 end

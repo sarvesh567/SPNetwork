@@ -1,16 +1,24 @@
 PODS:
-  - SPNetwork (0.1.0)
+  - Alamofire (4.9.1)
+  - SPNetwork (1.0.0):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - SPNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   SPNetwork:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SPNetwork: 5778be31fab4842afd1fc72c3e4f79070799159b
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  SPNetwork: 5c0cf58ece2b4691db2bf17900cb07641e8ca20f
 
-PODFILE CHECKSUM: 1d5f34681b9b5ad99f96c7db97e66f9c6befb607
+PODFILE CHECKSUM: 0845370f86ce6661dc25fb4761a73a7e930dc3c1
 
 COCOAPODS: 1.11.2
