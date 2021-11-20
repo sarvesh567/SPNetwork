@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  NetworkError.swift
 //  SPNetwork
 //
 //  Created by Amit Sharma on 18/11/21.
@@ -20,3 +20,4 @@ extension NetworkError: LocalizedError{
         }
     }
 }
+

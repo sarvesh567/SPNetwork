@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
  enum URLGenerator: String{
     case scheme = "https"
     case host = "topcoaching.in:8081"

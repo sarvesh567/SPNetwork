@@ -10,22 +10,15 @@ import UIKit
 import SPNetwork
 import Alamofire
 class ViewController: UIViewController {
+    let networkConfig = NetworkConfig()
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-         
-        do{
-            try NetworkConfig.queryConfigHost(completionHandler: { data, networkError in
-                let json = try? JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? [String: Any]
-                guard let j = json else {return }
-                print(j)
-            })
-        }catch{
-            print(error.localizedDescription)
+        DispatchQueue.main.async {
+            self.networkConfig.queryConfigHost(apiName: "get-unique-title-by-cat-id", host: "gk_main_host") { apiURL in
+                print(apiURL)
+            }
         }
-       
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

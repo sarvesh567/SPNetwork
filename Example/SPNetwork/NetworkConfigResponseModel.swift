@@ -7,3 +7,10 @@
 //
 
 import Foundation
+//struct NetworkConfigResponseModel {
+//    let backup_host : String?
+//    let config_host : String?
+//    let app_version : App_version?
+//    let host_section : [Hostsection]?
+//
+//}
