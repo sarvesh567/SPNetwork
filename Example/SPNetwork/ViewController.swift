@@ -13,11 +13,7 @@ class ViewController: UIViewController {
     let networkConfig = NetworkConfig()
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.async {
-            self.networkConfig.queryConfigHost(apiName: "get-unique-title-by-cat-id", host: "gk_main_host") { apiURL in
-                print(apiURL)
-            }
-        }
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

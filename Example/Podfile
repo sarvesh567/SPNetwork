@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'SPNetwork_Example' do
   pod 'Alamofire', '~> 5.4.4'
+  pod 'Firebase/Auth'
   pod 'SPNetwork', :path => '../'
   target 'SPNetwork_Tests' do
     inherit! :search_paths

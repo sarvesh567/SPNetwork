@@ -1,6 +1,6 @@
 {
   "name": "SPNetwork",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "summary": "Handle networking.",
   "description": "Handle networking.",
   "homepage": "https://github.com/sarvesh567/SPNetwork",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sarvesh567/SPNetwork.git",
-    "tag": "1.1.3"
+    "tag": "1.1.4"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,6 +22,9 @@
   "dependencies": {
     "Alamofire": [
       "~> 5.4.4"
+    ],
+    "Firebase/Auth": [
+
     ]
   }
 }

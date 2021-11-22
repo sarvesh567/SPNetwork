@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SPNetwork'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'Handle networking.'
   s.description      = <<-DESC
 Handle networking.
@@ -13,4 +13,5 @@ Handle networking.
   s.ios.deployment_target = '10.0'
   s.source_files = 'SPNetwork/Classes/**/*'
   s.dependency 'Alamofire', '~> 5.4.4'
+  s.dependency 'Firebase/Auth'
 end
