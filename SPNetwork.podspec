@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SPNetwork'
-  s.version          = '1.1.5'
+  s.version          = '1.1.6'
   s.summary          = 'Handle networking.'
   s.description      = <<-DESC
 Handle networking.

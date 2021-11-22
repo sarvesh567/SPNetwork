@@ -42,11 +42,11 @@ public class NetworkConfig{
         }
       
     }
-    
-    public func getAccessToken() -> String{
-        
-        
-    }
+//    
+//    public func getAccessToken() -> String{
+//        
+//        
+//    }
     /**
         add default parameters
      */
